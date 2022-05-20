@@ -1,0 +1,14 @@
+{
+  "Ticker":{
+			"ask":["price","TotalVol","Vol"],
+			"bid":["price","TotalVol","Vol"],
+			"Yesttrade":["yestclose","Trade.Price","Trade.size"],
+	  		"Volume": ["Today.Vol","Lastsnap.Vol"],
+			"price":["Today.Avgprice","LastSnapperiod.avgprice"],
+			"Trade":["Today.TradeSize","LastSnapperiod.TradeSize"],
+			"Low":["Today.Low","LastSnapped.Low"],
+			"High":["Today.High","LastSnapped.High"],
+			"Open":["Trade.Open"]
+		},
+	"Summary": ["Time","Open","High","Low","Close","Vwap","Volume","count"]
+}
